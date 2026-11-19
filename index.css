@@ -15,3 +15,161 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* Introduction Section */
+#introduction {
+    color: var(--midnight-blue);
+}
+
+.brand-text {
+    color: var(--midnight-blue);
+}
+
+.btn-explore {
+    background-color: var(--midnight-blue);
+    color: white;
+}
+
+.btn-explore:hover {
+    background-color: var(--baby-blue-eyes);
+    color: var(--midnight-blue);
+}
+
+.intro-image {
+    background-color: var(--baby-blue-eyes);
+}
+
+
+/* Featured Section */
+#featured {
+    color: var(--midnight-blue);
+}
+
+.featured-card {
+    background-color: white;
+    border: 1px solid var(--light-blue-grey);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.featured-card:hover {
+    transform: translateY(-5px);
+}
+
+.featured-card .card-body {
+    padding: 25px;
+}
+
+
+/* Categories Section */
+#categories-section {
+    background-color: var(--light-blue-grey);
+    color: var(--midnight-blue);
+}
+
+.category-card {
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-card .card-body {
+    padding: 30px 20px;
+}
+
+.category-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+/* Sample Resources Section */
+#resources {
+    color: var(--midnight-blue);
+}
+
+.resource-card {
+    background-color: white;
+    border: 1px solid var(--light-blue-grey);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+}
+
+.resource-card .card-body {
+    padding: 25px;
+}
+
+.resource-badge {
+    background-color: var(--cool-cerulean);
+    color: var(--midnight-blue);
+    font-size: 12px;
+}
+
+.resource-type {
+    color: #6c757d;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+/* About Section */
+#about {
+    background-color: var(--platinum);
+    color: var(--midnight-blue);
+}
+
+.about-card {
+    background-color: var(--light-blue-grey);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.about-card h3 {
+    color: var(--midnight-blue);
+}
+
+.about-card p {
+    line-height: 1.7;
+}
+
+
+
+/* Footer Section */
+.footer-section {
+    background-color: var(--midnight-blue);
+    color: white;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section hr {
+    border-color: var(--light-blue-grey);
+}
+
+.footer-link {
+    color: var(--light-blue-grey);
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.footer-link:hover {
+    color: var(--baby-blue-eyes);
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
