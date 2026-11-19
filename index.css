@@ -1,0 +1,17 @@
+
+:root {
+    --cool-cerulean: #BEB1D1;
+    --baby-blue-eyes: #A7C7E7;
+    --midnight-blue: #1C2B48;
+    --platinum: #E8ECEF;
+    --light-blue-grey: #C4D8E5;
+}
+
+
+body {
+    background-color: var(--platinum);
+    color: var(--midnight-blue);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
